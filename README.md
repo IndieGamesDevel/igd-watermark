@@ -15,9 +15,20 @@ It enables the effortless addition of a watermark to images within your media ga
 
 ## Installation
 
-1. To download the plugin, visit the GitHub repository and click on the "Releases" section to find the latest version.
-2. Upload the plugin folder to the `/wp-content/plugins/` directory on your WordPress site.
-3. Activate the plugin from the 'Plugins' menu in WordPress.
+To get started with the IGD Watermark plugin:
+
+- **Option 1: Download ZIP**
+  - Click the `Code` button on this page and select `Download ZIP`.
+  - Upload the ZIP file through your WordPress admin panel under `Plugins > Add New > Upload Plugin`.
+
+- **Option 2: Clone with Git**
+  - If you prefer using Git, clone this repository using the following command:
+    ```
+    git clone https://github.com/<your-repository>/igd-watermark.git
+    ```
+  - Move the cloned folder into your WordPress `wp-content/plugins` directory.
+
+Activate the plugin from the `Plugins` menu in WordPress.
 
 ## Usage
 
