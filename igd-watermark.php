@@ -28,7 +28,7 @@ function igd_watermark_action_callback() {
 	$attachment_id = isset($_POST['attachment_id']) ? intval($_POST['attachment_id']) : 0;
 
 	if ($attachment_id === 0) {
-		wp_send_json_error('ID dell\'allegato non valido.');
+		wp_send_json_error('Invalid attachment ID.');
 	}
 
 	$watermark_url = plugin_dir_url(__FILE__) . '/images/watermark.png';
@@ -37,7 +37,7 @@ function igd_watermark_action_callback() {
 
 	$response = array(
 		'success' => true,
-		'message' => 'Watermark applicato con successo all\'immagine con ID: ' . $attachment_id,
+		'message' => 'Watermark successful applied with image ID: ' . $attachment_id,
 		'new_attachment_id' => $new_attachment_id,
 	);
 
