@@ -24,7 +24,7 @@ To get started with the IGD Watermark plugin:
 - **Option 2: Clone with Git**
   - If you prefer using Git, clone this repository using the following command:
     ```
-    git clone https://github.com/<your-repository>/igd-watermark.git
+    git clone https://github.com/IndieGamesDevel/igd-watermark.git
     ```
   - Move the cloned folder into your WordPress `wp-content/plugins` directory.
 
